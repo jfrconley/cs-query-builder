@@ -2,7 +2,7 @@
 	"name": "cs-query-builder",
 	"author": "John Conley",
 	"description": "String builder for cloudsearch queries",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "dist/index.js",
 	"license": "MIT",
 	"scripts": {
@@ -15,7 +15,5 @@
 		"babili": "^0.0.12",
 		"flow-bin": "^0.46.0"
 	},
-	"dependencies": {
-		"aws-sdk": "^2.52.0"
-	}
+	"dependencies": {}
 }
