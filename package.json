@@ -1,6 +1,7 @@
 {
 	"name": "cs-query-builder",
 	"author": "John Conley",
+	"description": "String builder for cloudsearch queries",
 	"version": "1.0.0",
 	"main": "dist/index.js",
 	"license": "MIT",
