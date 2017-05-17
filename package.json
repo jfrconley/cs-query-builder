@@ -1,0 +1,20 @@
+{
+	"name": "cs-query-builder",
+	"author": "John Conley",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"license": "MIT",
+	"scripts": {
+		"prepublish": "babel src --out-dir dist --source-maps"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.24.1",
+		"babel-plugin-syntax-flow": "^6.18.0",
+		"babel-plugin-transform-flow-comments": "^6.22.0",
+		"babili": "^0.0.12",
+		"flow-bin": "^0.46.0"
+	},
+	"dependencies": {
+		"aws-sdk": "^2.52.0"
+	}
+}

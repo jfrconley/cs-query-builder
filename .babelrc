@@ -1,0 +1,6 @@
+{
+	"presets": ["babili"],
+	"plugins": ["syntax-flow", "transform-flow-comments"],
+	"comments": true,
+	"sourceMaps": "both"
+}
