@@ -24,20 +24,18 @@ function objectToQuery(obj: ?Object): string {
 	if (obj == null) return '';
 	const keys = Object.keys(obj);
 	const max = keys.length;
-	let i = 0;
-	let strings = [];
+	let retStr = "";
 
-	while (i < max) {
-		i++;
+	for(let i = 0; i < max; i++) {
 		const key = keys[i];
 		const value = obj[key];
 		if (typeof value === "string") {
-			strings.push(`${key}="${value}"`);
+			retStr += (`${key}="${value}"`);
 		} else {
-			strings.push(`${key}=${value}`);
+			retStr += (`${key}=${value}`);
 		}
 	}
-	return strings.join(' ');
+	return retStr;
 }
 
 function toExpression(operator: Operator, field: ?string, value: Expression | number, options: ?Options): Expression {

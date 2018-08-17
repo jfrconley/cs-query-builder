@@ -6,7 +6,8 @@
 	"main": "dist/index.js",
 	"license": "MIT",
 	"scripts": {
-		"prepublish": "babel src --out-dir dist --source-maps"
+		"prepare": "npm run build",
+		"build": "babel src --out-dir dist --source-maps"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.24.1",
@@ -15,5 +16,6 @@
 		"babili": "^0.0.12",
 		"flow-bin": "^0.46.0"
 	},
-	"dependencies": {}
+	"dependencies": {},
+	"repository": "https://github.com/jfrconley/cs-query-builder.git"
 }
